@@ -13,9 +13,9 @@ const FILES_TO_CACHE = [
 // install
 self.addEventListener("install", function (evt) {
   // pre cache image data
-  evt.waitUntil(
-    caches.open(DATA_CACHE_NAME).then((cache) => cache.add("/api/images"))
-  );
+  // evt.waitUntil(
+  //   caches.open(DATA_CACHE_NAME).then((cache) => cache.add("/api/"))
+  // );
     
   // pre cache all static assets
   evt.waitUntil(
