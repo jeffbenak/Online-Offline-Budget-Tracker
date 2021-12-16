@@ -16,4 +16,4 @@
 - The graph will show you your total transaction amount, as well as at the top of the page. 
 
 Deployment: 
-https://rocky-earth-72865.herokuapp.com/
+https://jeff-budget-tracker.herokuapp.com/
